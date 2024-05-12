@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.205);
+
+}
+
+nav ul{
+    display: flex;  
+     align-items: center;
+     gap: 40px; 
+}
+
+nav ul li{
+     display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    }
+
+.navleft li{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navright{
+    display: flex;
+    gap: 20px;
+}
+
+#findastore{
+    display: flex;
+   gap: 10px;
+   padding-right: 30px;
+   }
+
+#boton1{
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+#boton2{
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1{
+    display: flex;
+    width: 100%;
+    height: 420px;
+    background-color: #f7cdd0;
+
+}
+
+.hijo2{
+    gap: 40px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.hijo2 h2{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    width: 500px;
+}
+
+.hijo2 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight:400;
+    width: 494px;
+    letter-spacing: 1px;
+
+}
+
+
+#button1{
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+     border-radius: 20px;
+     padding: 6px;
+     font-size: 17px;
+     font-weight: 500;
+    
+}
+
+.hijo1{
+    width: 50%;
+    height: 100%;
+}
+
+.imgcontent {
+    width: fit-content;
+    height: 100%;
+}
+
+.imgcontent img{
+    width: 100%;
+    height: 100%;
+}
+.box2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #0021db
+}
+
+.hijo3{
+    width: 50%;
+    height: 100%;
+    gap: 40px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hijo3 h2{
+    font-size: 52px;
+    color: rgb(252, 245, 245);
+    letter-spacing: 4px;
+    width: 440px;
+
+}
+
+.hijo3 p{
+    color: white;
+    font-size: 24px;
+    width: 420px;
+}
+#button3{
+    width: 130px;
+    height:40px;
+    background-color: rgba(85, 71, 71, 0);
+    border: 1px solid white;
+    color: white;
+     border-radius: 20px;+
+     padding: 6px;
+     font-size: 19px;
+     font-weight: 500;
+     transition: 0.9px;
+    
+
+}
+
+.hijo4{ 
+    width: 50%;
+    height: 100%;
+    
+}
+
+.hijo4 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.box3{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #98cde4;
+
+}
+
+.hijo6{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1e3932;
+    gap: 40px;
+}
+
+.hijo6 h2{
+    font-size: 50px;
+    letter-spacing: 4px;
+    gap: 4px;
+  
+}
+
+.hijo6 p{
+    font-size: 30px;
+    width: 550px;
+}
+
+.hijo5{
+    width: 50%;
+    height: 100;
+}
+.hijo5 img{
+    width: 100%;
+    height: 100%;
+}
+
+#button6{
+
+    width: 130px;
+    height:40px;
+    background-color: rgba(85, 71, 71, 0);
+    border: 1px solid rgb(14, 12, 12);
+    color: rgb(19, 17, 17);
+     border-radius:20px;
+     padding: 6px;
+     font-size: 19px;
+     font-weight: 500;
+     
+}
+
+.box4{
+    display: flex;
+    width: 100%;
+    height: 420px;
+    background-color: #0021db;
+}
+
+.hijo7{
+    gap: 40px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.hijo7 h2{
+    font-size: 52px;
+    width: 520px;
+    letter-spacing: 4px;
+    
+}
+
+.hijo7 p{
+
+    font-size: 24px;
+    width: 420px;
+    letter-spacing: 2px;
+   
+}
+.hijo8{
+    width: 50%;
+    height: 100%;
+}
+
+.hijo8 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#button7{
+    width: 130px;
+    height:40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+     border-radius:20px;
+     padding: 6px;
+     font-size: 19px;
+     font-weight: 500;
+}
+
+.box5{
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+}
+.hijo9{
+
+    width: 50%;
+    height: 100%;
+   
+}
+
+.hijo9 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.hijo10{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #008248;
+    gap: 40px;
+
+}
+
+.hijo10 h2{
+    font-size: 26px;
+    width: 580px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.hijo10 p{
+    font-size: 20px;
+    line-height: 40px;
+    width: 490px;
+
+}
+
+
+#button10{
+    width: 130px;
+    height:40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+     border-radius:20px;
+     padding: 6px;
+     font-size: 19px;
+     font-weight: 500; 
+}
+
+.box6{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    background-color: #ffffff00;
+   
+}
+
+
+.box6 p{
+    width: 700px;
+    line-height: 24px;
+  
+}
+
+.box7{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-top: 2px solid rgba(98, 98, 98, 0.163);
+}
+
+.hijo11, .hijo12, .hijo13, .hijo14, .hijo15{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 180px;
+   
+}
+
+.hijo11 h3, .hijo12 h3, .hijo13 h3, .hijo14 h3, .hijo15 h3{
+    text-align: left;
+    font-size: 16px;
+    color: #00000094;
+    font-weight: 400;
+
+}
+
+.hijo11 h2, .hijo12 h2, .hijo13 h2, .hijo14 h2, .hijo15 h2{
+    color: #000000cc;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.box8{
+    display: flex;
+    width: 100%;
+    height: 420px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    border-top: 2px solid rgba(98, 98, 98, 0.163);
+
+}
+
+.logos{
+    display: flex;
+    gap: 17px;
+}
+
+.infobox8{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    text-decoration: none;   
+}
+
+.infobox8 a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.copyright{
+    display: flex;
+    color: #070e0c8e;
+    font-size: 15px;
+    line-height: 40px;
+
+}
